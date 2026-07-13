@@ -26,7 +26,7 @@ export default function Hero() {
         </h1>
 
         <h2 className="text-xl md:text-2xl text-slate-600 mb-6 font-medium">
-          Frontend Development • Jaringan Komputer
+         Jaringan Komputer
         </h2>
 
         <p className="text-slate-500 mb-8 leading-relaxed text-lg max-w-lg">
