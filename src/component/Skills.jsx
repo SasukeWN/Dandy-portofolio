@@ -27,6 +27,12 @@ export default function Skills() {
       color: "text-cyan-500",
       bg: "bg-cyan-50",
       desc: "Sedang belajar membangun UI dengan komponen",
+    }, {
+      name: "Node.js (Native)",
+      icon: "fab fa-node-js",
+      color: "text-green-600",
+      bg: "bg-green-50",
+      desc: "Aktif mendalami ekosistem Node.js dengan pengalaman praktis membangun layanan backend dan REST API.",
     },
     {
       name: "Tailwind CSS",
@@ -69,6 +75,13 @@ export default function Skills() {
       color: "text-slate-800",
       bg: "bg-slate-200",
       desc: "Familiar dengan instalasi dan konfigurasi server dasar (Debian)",
+    },
+    {
+      name: "MySQL",
+      icon: "fas fa-database",
+      color: "text-indigo-600",
+      bg: "bg-indigo-50",
+      desc: "Memiliki pemahaman dasar relational database, mampu merancang skema dan menulis query untuk kebutuhan aplikasi",
     },
   ];
 
