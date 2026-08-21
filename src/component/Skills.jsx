@@ -34,6 +34,15 @@ export default function Skills() {
       bg: "bg-green-50",
       desc: "Aktif mendalami ekosistem Node.js dengan pengalaman praktis membangun layanan backend dan REST API.",
     },
+
+    {
+      name: "Express.js",
+      icon: "devicon-express-original",
+      color: "text-gray-800",
+      bg: "bg-gray-100",
+      desc: "Membangun backend dan REST API untuk mengelola data aplikasi",
+    },
+
     {
       name: "Tailwind CSS",
       icon: "fas fa-paint-brush",
