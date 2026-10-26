@@ -21,11 +21,11 @@ function App() {
     <main className="min-h-screen text-gray-900">
       <Navbar />
       <Hero />
-      <About />
-      <Skills />
-      <Certifications />
-      <Experience/>
       <Projects />
+      <Skills />
+      <Experience/>
+      <Certifications />
+      <About />
       <Footer />
     </main>
   );

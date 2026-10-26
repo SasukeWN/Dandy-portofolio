@@ -7,12 +7,14 @@ export default function Projects() {
         <section id="projects" className="py-20 bg-gray-50">
             <div className="max-w-6xl mx-auto px-4">
 
-                <h2
-                    className="text-3xl font-bold mb-12 text-center"
-                    data-aos="fade-up"
-                >
-                    Yang pernah saya buat
-                </h2>
+                <div className="text-center mb-12" data-aos="fade-up">
+                    <p className="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-primary">
+                        Portofolio
+                    </p>
+                    <h2 className="text-3xl font-bold text-slate-900">
+                        Proyek yang Telah Saya Kerjakan
+                    </h2>
+                </div>
 
                 {/* PROJECT 1 */}
                 <div
@@ -37,10 +39,10 @@ export default function Projects() {
                         </h3>
 
                         <p className="text-gray-600 mb-6 leading-relaxed">
-                            Sebuah halaman website informatif yang dirancang untuk
-                            layanan penyewaan alat fotografi. Menampilkan daftar harga
-                            sewa dan informasi kontak yang mudah diakses oleh calon
-                            pelanggan dengan antarmuka yang bersih dan responsif.
+                            Landing page berkonversi tinggi untuk usaha rental fotografi.
+                            Memudahkan calon pelanggan mengecek katalog harga, ketersediaan
+                            unit, dan langsung menghubungi penyedia jasa. Dibangun dengan
+                            antarmuka yang bersih, cepat, dan 100% responsif di semua perangkat.
                         </p>
 
                         <div className="flex flex-wrap gap-2 mb-8">
@@ -94,10 +96,10 @@ export default function Projects() {
                         </h3>
 
                         <p className="text-gray-600 mb-6 leading-relaxed">
-                            Sebuah website yang membantu warga menyampaikan laporan
-                            mengenai permasalahan atau keluhan yang terjadi di lingkungan
-                            sekitar. Laporan dapat dikelola oleh admin sehingga proses
-                            penanganan masalah menjadi lebih terorganisir dan mudah dipantau.
+                            Sistem manajemen pengaduan masyarakat berbasis web fullstack
+                            dengan admin dashboard. Warga dapat menyampaikan laporan
+                            secara digital, sementara admin mengelola dan memantau
+                            status penanganan setiap kasus secara real-time dan terorganisir.
                         </p>
 
                         <div className="flex flex-wrap gap-2 mb-8">
@@ -169,10 +171,10 @@ export default function Projects() {
                         </h3>
 
                         <p className="text-gray-600 mb-6 leading-relaxed">
-                            Platform sistem manajemen pembelajaran modern yang menghubungkan
-                            guru dan siswa dalam satu ekosistem digital. Memfasilitasi
-                            akses materi pembelajaran, manajemen pengguna, serta antarmuka
-                            portal edukasi yang bersih, interaktif, dan responsif.
+                            Platform edukasi digital terpadu dengan sistem autentikasi
+                            aman, manajemen materi pembelajaran, dan dashboard responsif
+                            untuk guru serta siswa. Dirancang sebagai ekosistem
+                            pembelajaran lengkap yang siap digunakan secara operasional.
                         </p>
 
                         <div className="flex flex-wrap gap-2 mb-8">
